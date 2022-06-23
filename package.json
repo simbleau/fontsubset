@@ -1,0 +1,39 @@
+{
+  "name": "fontsubset",
+  "version": "1.0.0",
+  "description": "Create a font subset from an existing font in SFNT (TrueType/OpenType), WOFF, or WOFF2 format. Uses harfbuzzjs, which is a WebAssembly build of HarfBuzz.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jieiku/fontsubset.git"
+  },
+  "keywords": [
+    "abridge",
+    "font",
+    "awesome",
+    "fontawesome",
+    "fontawesome pro",
+    "subset",
+    "subsetter",
+    "icon font",
+    "optimize"
+  ],
+  "author": "saurori, Jake G <106644+Jieiku@users.noreply.github.com>",
+  "bugs": {
+    "url": "https://github.com/Jieiku/fontsubset"
+  },
+  "homepage": "https://github.com/Jieiku/fontsubset",
+  "scripts": {
+    "abridge": "node fontsubset.js abridge magnifying-glass circle-half-stroke angle-up angles-left angle-left angle-right angles-right",
+    "abridge-full": "node fontsubset.js abridge-full magnifying-glass circle-half-stroke angle-up angles-left angle-left angle-right angles-right tags layer-group book circle-info calendar glasses circle-dollar-to-slot"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "glob": "^8.0.3",
+    "path": "^0.12.7",
+    "subset-font": "^1.4.0",
+    "yaml": "^2.1.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.1"
+  }
+}
