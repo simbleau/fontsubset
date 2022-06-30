@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/Jieiku/fontsubset",
   "scripts": {
-    "blog": "node subfont.js blog glasses calendar circle-info magnifying-glass sun moon angles-up angle-left angles-left angle-right angles-right user-secret map-location-dot tags layer-group book circle-dollar-to-slot mug-hot keyboard pen-to-square rust",
-    "website": "node subfont.js website circle-info sun moon angles-up user-secret map-location-dot circle-dollar-to-slot mug-hot keyboard pen-to-square rust"
+    "blog": "node fontsubset.js blog glasses calendar circle-info magnifying-glass sun moon angles-up angle-left angles-left angle-right angles-right user-secret map-location-dot tags layer-group book circle-dollar-to-slot mug-hot keyboard pen-to-square rust",
+    "website": "node fontsubset.js website circle-info sun moon angles-up user-secret map-location-dot circle-dollar-to-slot mug-hot keyboard pen-to-square rust"
   },
   "dependencies": {
     "fs": "^0.0.1-security",
