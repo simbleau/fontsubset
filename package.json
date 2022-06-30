@@ -7,7 +7,6 @@
     "url": "git+https://github.com/Jieiku/fontsubset.git"
   },
   "keywords": [
-    "abridge",
     "font",
     "awesome",
     "fontawesome",
@@ -23,8 +22,8 @@
   },
   "homepage": "https://github.com/Jieiku/fontsubset",
   "scripts": {
-    "abridge": "node fontsubset.js abridge magnifying-glass circle-half-stroke angle-up angles-left angle-left angle-right angles-right",
-    "abridge-full": "node fontsubset.js abridge-full magnifying-glass circle-half-stroke angle-up angles-left angle-left angle-right angles-right tags layer-group book circle-info calendar glasses circle-dollar-to-slot"
+    "blog": "node subfont.js blog glasses calendar circle-info magnifying-glass sun moon angles-up angle-left angles-left angle-right angles-right user-secret map-location-dot tags layer-group book circle-dollar-to-slot mug-hot keyboard pen-to-square rust",
+    "website": "node subfont.js website circle-info sun moon angles-up user-secret map-location-dot circle-dollar-to-slot mug-hot keyboard pen-to-square rust"
   },
   "dependencies": {
     "fs": "^0.0.1-security",
