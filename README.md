@@ -26,6 +26,10 @@ npm run-script blog
 
 The above scripts generate the new fonts and output them to the assets folder, you will find these commands defined in the `package.json` file.
 
+# Font inspection
+
+I use [fontforge](https://fontforge.org/en-US/) to inspect the generated fonts for their code points.
+
 ---
 
 ❗ **More information: see [parent repository](https://github.com/Jieiku/fontsubset/blob/main/README.md).**
