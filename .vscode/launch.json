@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "command": "npm run-script website",
+            "name": "Build website font",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "command": "npm run-script blog",
+            "name": "Build blog font",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+    ]
+}
